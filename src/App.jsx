@@ -8,6 +8,8 @@ function App() {
 
   return (
     <>
+    <img src="src/assets/clouds.png" className="cloudsOne" alt="clouds" />
+    <img src="src/assets/clouds.png" className="cloudsTwo" alt="clouds" />
     <div className="logoWithSubtitle">
       <h1 className="logo">poadiem</h1>
       <p className="subtitle">
