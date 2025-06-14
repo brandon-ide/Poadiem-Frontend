@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=DM+Serif+Text:ital@0;1&family=Galada&family=Lexend:wght@100..900&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  color: #f37742;
+  font-size: 150px;
+  font-family: "Galada", cursive;
+  text-shadow: #1a1a1a 2px 2px;
+}
+
+.subtitle {
+  margin-top: -135px;
+  color: #1a1a1a;
+  font-size: 25px;
+}
+
+strong {
+  font-family: "Galada", cursive;
+}
+
+strong:hover {
+  text-shadow: 0 0 10px #ffffff;
+  transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 760px) {
+
+.logo {
+  font-size: 100px;
+}
+
+.subtitle {
+  margin-top: -90px;
+  font-size: 20px;
+}
+  
+}

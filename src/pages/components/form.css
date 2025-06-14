@@ -1,0 +1,64 @@
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+label, select, input {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+select, input {
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1em;
+}
+
+#activities {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 110px;
+}
+
+.interestBoxes {
+    font-size: 24px;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 60px;
+}
+
+input {
+    font-size: 16px;
+}
+
+input:hover, select:hover {
+    cursor: pointer;
+    background-color: #2d2d2d;
+}
+
+.formSubmit {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 175px;
+}
+
+@media only screen and (max-width: 760px) {
+
+.formSubmit {
+    margin-left: 120px;
+}
+
+#activities {
+    margin-left: 50px;
+}
+
+.interestBoxes {
+    margin-left: 0;
+}
+
+}
