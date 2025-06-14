@@ -6,6 +6,22 @@
   text-align: center;
 }
 
+.cloudsOne {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 250px;
+  height: 250px;
+  width: 400px;
+}
+
+.cloudsTwo {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: -625px;
+  height: 250px;
+  width: 400px;
+}
+
 .logo {
   color: #f37742;
   font-size: 150px;
