@@ -8,18 +8,32 @@
 
 .cloudsOne {
   position: absolute;
-  margin-top: 180px;
-  margin-left: 250px;
-  height: 250px;
-  width: 400px;
+  margin-top: 50px;
+  margin-left: 320px;
+  height: 200px;
+  width: 350px;
 }
 
 .cloudsTwo {
   position: absolute;
-  margin-top: 250px;
-  margin-left: -625px;
-  height: 250px;
-  width: 400px;
+  margin-top: 50px;
+  margin-left: -670px;
+  height: 200px;
+  width: 350px;
+}
+
+.plane {
+  position: absolute;
+  width: 200px;
+  margin-left: -600px;
+  margin-top: 130px;
+}
+
+.car {
+  position: absolute;
+  width: 150px;
+  margin-top: 600px;
+  margin-left: 400px;
 }
 
 .logo {
@@ -54,5 +68,30 @@ strong:hover {
   margin-top: -90px;
   font-size: 20px;
 }
+
+.cloudsOne {
+  margin-top: -130px;
+  margin-left: -120px;
+}
+
+.cloudsTwo {
+  margin-top: -150px;
+  margin-left: -250px;
+}
+
+.car {
+  position: absolute;
+  width: 150px;
+  margin-top: 600px;
+  margin-left: 90px;
+}
   
+}
+
+@media only screen and (max-width: 430px) {
+
+  body {
+    margin-top: 7em;
+  }
+
 }
