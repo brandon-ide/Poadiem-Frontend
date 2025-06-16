@@ -2,8 +2,21 @@ form {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
+    gap: 10px;
 }
 
+.form-wrapper {
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.slide-left {
+    transform: translateX(-120%);
+    opacity: 0;
+}
+  
 label, select, input {
     margin: 10px;
 }
@@ -21,14 +34,14 @@ select, input {
 
 #activities {
     position: absolute;
-    margin-top: 150px;
+    margin-top: 165px;
     margin-left: 110px;
 }
 
 .interestBoxes {
     font-size: 24px;
     position: absolute;
-    margin-top: 185px;
+    margin-top: 200px;
     margin-left: 60px;
 }
 
