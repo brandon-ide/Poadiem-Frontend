@@ -61,6 +61,18 @@ strong:hover {
 @media only screen and (max-width: 760px) {
 
 .logo {
+  font-size: 110px;
+}
+
+.subtitle {
+  margin-top: -100px;
+  font-size: 22px;
+}
+}
+
+@media only screen and (max-width: 430px) {
+
+.logo {
   font-size: 100px;
 }
 
@@ -80,18 +92,14 @@ strong:hover {
 }
 
 .car {
-  position: absolute;
-  width: 150px;
-  margin-top: 600px;
-  margin-left: 90px;
-}
-  
+  display: flex;
+  padding-top: 80px;
+  margin-left: 140px;
 }
 
-@media only screen and (max-width: 430px) {
-
-  body {
+body {
     margin-top: 7em;
-  }
+    
+}
 
 }

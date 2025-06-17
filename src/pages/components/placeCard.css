@@ -1,0 +1,55 @@
+@keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+
+.place-card {
+    width: 280px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 0.5s ease forwards;
+}
+  
+.place-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+  
+.place-image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+  
+.place-details {
+    padding: 16px;
+    background-color: #fff;
+}
+  
+.place-name {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+  
+.place-address,
+.place-rating {
+    margin: 4px 0;
+    color: #666;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+  
+  
