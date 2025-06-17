@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import Form from './pages/components/form'
 import '../src/pages/components/form.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
